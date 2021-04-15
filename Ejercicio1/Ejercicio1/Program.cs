@@ -11,7 +11,7 @@ namespace Ejercicio1
 
         static void Main(string[] args)
         {
-            List<Transport> vehicles = new List<Transport>();
+            List<ITransport> vehicles = new List<ITransport>();
             string vehicleType = _airplane;
             int j = 0;
 

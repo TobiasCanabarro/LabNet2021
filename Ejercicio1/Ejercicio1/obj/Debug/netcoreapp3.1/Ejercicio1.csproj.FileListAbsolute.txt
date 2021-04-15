@@ -11,3 +11,16 @@ C:\Users\tobia\source\repos\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\Ejerci
 C:\Users\tobia\source\repos\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.dll
 C:\Users\tobia\source\repos\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.pdb
 C:\Users\tobia\source\repos\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.genruntimeconfig.cache
+C:\Users\tobia\Source\Repos\LabNet2021\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.csprojAssemblyReference.cache
+C:\Users\tobia\Source\Repos\LabNet2021\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.AssemblyInfoInputs.cache
+C:\Users\tobia\Source\Repos\LabNet2021\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.AssemblyInfo.cs
+C:\Users\tobia\Source\Repos\LabNet2021\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\tobia\Source\Repos\LabNet2021\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.dll
+C:\Users\tobia\Source\Repos\LabNet2021\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.pdb
+C:\Users\tobia\source\repos\LabNet2021\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.exe
+C:\Users\tobia\source\repos\LabNet2021\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.deps.json
+C:\Users\tobia\source\repos\LabNet2021\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.runtimeconfig.json
+C:\Users\tobia\source\repos\LabNet2021\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.runtimeconfig.dev.json
+C:\Users\tobia\source\repos\LabNet2021\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.dll
+C:\Users\tobia\source\repos\LabNet2021\Ejercicio1\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.pdb
+C:\Users\tobia\source\repos\LabNet2021\Ejercicio1\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.genruntimeconfig.cache

@@ -4,20 +4,34 @@ using System.Text;
 
 namespace Ejercicio1
 {
-    public class Car : Transport
+    public class Car : ITransport
     {
-        public Car(int passenger) : base(passenger)
+        private int passenger;
+
+        public Car(int passenger)
         {
+            SetPassenger(passenger);
         }
 
-        public override string Advance()
+         public string Advance()
         {
             return $"El vehiculo esta avanzando con {GetPassenger()} personas!";
         }
 
-        public override string Stop()
+        public string Stop()
         {
             return $"Tiene {GetPassenger()} pasajeros!"; ;
         }
+
+        public int GetPassenger()
+        {
+            return this.passenger;
+        }
+
+        public void SetPassenger (int passenger)
+        {
+            this.passenger = passenger;
+        }
+
     }
 }
