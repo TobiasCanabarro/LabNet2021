@@ -1,3 +1,4 @@
-.slb
-/obj/
-/bin/
+*.sln
+.vs/
+obj/
+bin/
