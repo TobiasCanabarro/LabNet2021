@@ -1,4 +1,4 @@
-*.sln
-.vs/
-obj/
-bin/
+.sln
+.vs/*
+obj/*
+bin/*
