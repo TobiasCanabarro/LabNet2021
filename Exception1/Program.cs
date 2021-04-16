@@ -2,22 +2,23 @@
 
 namespace Exception1
 {
-    class Program
+   public class Program
     {
-        private static string _fail_state = "No se pudo realizar la operacion";
-        private static string _ok_state = "Se pudo realizar la operacion";
+        private static readonly string _fail_state = "No se pudo realizar la operacion";
+        private static readonly string _ok_state = "Se pudo realizar la operacion";
+        private static readonly int _divider = 0;
+        private static readonly int _value = 10;
         
         static void Main(string[] args)
         {
 
             string state = _ok_state;
             float result = 0;
-            int divider = 0;
-            int num = 10;
+            int num = _value;
 
             try
             {
-                result = num / divider;
+                result = num.Division(_divider);
             }
             catch (DivideByZeroException ex)
             {
