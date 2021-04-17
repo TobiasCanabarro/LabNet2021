@@ -1,0 +1,13 @@
+E:\Documentos\EjerciciosC#\Exception2\bin\Debug\netcoreapp3.1\Exception2.exe
+E:\Documentos\EjerciciosC#\Exception2\bin\Debug\netcoreapp3.1\Exception2.deps.json
+E:\Documentos\EjerciciosC#\Exception2\bin\Debug\netcoreapp3.1\Exception2.runtimeconfig.json
+E:\Documentos\EjerciciosC#\Exception2\bin\Debug\netcoreapp3.1\Exception2.runtimeconfig.dev.json
+E:\Documentos\EjerciciosC#\Exception2\bin\Debug\netcoreapp3.1\Exception2.dll
+E:\Documentos\EjerciciosC#\Exception2\bin\Debug\netcoreapp3.1\Exception2.pdb
+E:\Documentos\EjerciciosC#\Exception2\obj\Debug\netcoreapp3.1\Exception2.AssemblyInfoInputs.cache
+E:\Documentos\EjerciciosC#\Exception2\obj\Debug\netcoreapp3.1\Exception2.AssemblyInfo.cs
+E:\Documentos\EjerciciosC#\Exception2\obj\Debug\netcoreapp3.1\Exception2.csproj.CoreCompileInputs.cache
+E:\Documentos\EjerciciosC#\Exception2\obj\Debug\netcoreapp3.1\Exception2.dll
+E:\Documentos\EjerciciosC#\Exception2\obj\Debug\netcoreapp3.1\Exception2.pdb
+E:\Documentos\EjerciciosC#\Exception2\obj\Debug\netcoreapp3.1\Exception2.genruntimeconfig.cache
+E:\Documentos\EjerciciosC#\Exception2\obj\Debug\netcoreapp3.1\Exception2.csprojAssemblyReference.cache
