@@ -1,0 +1,4 @@
+C:\Users\tobia\source\repos\TestConnection\obj\Debug\netcoreapp3.1\TestConnection.csprojAssemblyReference.cache
+C:\Users\tobia\source\repos\TestConnection\obj\Debug\netcoreapp3.1\TestConnection.AssemblyInfoInputs.cache
+C:\Users\tobia\source\repos\TestConnection\obj\Debug\netcoreapp3.1\TestConnection.AssemblyInfo.cs
+C:\Users\tobia\source\repos\TestConnection\obj\Debug\netcoreapp3.1\TestConnection.csproj.CoreCompileInputs.cache
