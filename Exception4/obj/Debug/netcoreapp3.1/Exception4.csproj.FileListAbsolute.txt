@@ -1,0 +1,13 @@
+C:\Users\tobia\source\repos\Exception4\bin\Debug\netcoreapp3.1\Exception4.exe
+C:\Users\tobia\source\repos\Exception4\bin\Debug\netcoreapp3.1\Exception4.deps.json
+C:\Users\tobia\source\repos\Exception4\bin\Debug\netcoreapp3.1\Exception4.runtimeconfig.json
+C:\Users\tobia\source\repos\Exception4\bin\Debug\netcoreapp3.1\Exception4.runtimeconfig.dev.json
+C:\Users\tobia\source\repos\Exception4\bin\Debug\netcoreapp3.1\Exception4.dll
+C:\Users\tobia\source\repos\Exception4\bin\Debug\netcoreapp3.1\Exception4.pdb
+C:\Users\tobia\source\repos\Exception4\obj\Debug\netcoreapp3.1\Exception4.csprojAssemblyReference.cache
+C:\Users\tobia\source\repos\Exception4\obj\Debug\netcoreapp3.1\Exception4.AssemblyInfoInputs.cache
+C:\Users\tobia\source\repos\Exception4\obj\Debug\netcoreapp3.1\Exception4.AssemblyInfo.cs
+C:\Users\tobia\source\repos\Exception4\obj\Debug\netcoreapp3.1\Exception4.csproj.CoreCompileInputs.cache
+C:\Users\tobia\source\repos\Exception4\obj\Debug\netcoreapp3.1\Exception4.dll
+C:\Users\tobia\source\repos\Exception4\obj\Debug\netcoreapp3.1\Exception4.pdb
+C:\Users\tobia\source\repos\Exception4\obj\Debug\netcoreapp3.1\Exception4.genruntimeconfig.cache
