@@ -1,0 +1,13 @@
+C:\Users\tobia\source\repos\Exception3\bin\Debug\netcoreapp3.1\Exception3.exe
+C:\Users\tobia\source\repos\Exception3\bin\Debug\netcoreapp3.1\Exception3.deps.json
+C:\Users\tobia\source\repos\Exception3\bin\Debug\netcoreapp3.1\Exception3.runtimeconfig.json
+C:\Users\tobia\source\repos\Exception3\bin\Debug\netcoreapp3.1\Exception3.runtimeconfig.dev.json
+C:\Users\tobia\source\repos\Exception3\bin\Debug\netcoreapp3.1\Exception3.dll
+C:\Users\tobia\source\repos\Exception3\bin\Debug\netcoreapp3.1\Exception3.pdb
+C:\Users\tobia\source\repos\Exception3\obj\Debug\netcoreapp3.1\Exception3.csprojAssemblyReference.cache
+C:\Users\tobia\source\repos\Exception3\obj\Debug\netcoreapp3.1\Exception3.AssemblyInfoInputs.cache
+C:\Users\tobia\source\repos\Exception3\obj\Debug\netcoreapp3.1\Exception3.AssemblyInfo.cs
+C:\Users\tobia\source\repos\Exception3\obj\Debug\netcoreapp3.1\Exception3.csproj.CoreCompileInputs.cache
+C:\Users\tobia\source\repos\Exception3\obj\Debug\netcoreapp3.1\Exception3.dll
+C:\Users\tobia\source\repos\Exception3\obj\Debug\netcoreapp3.1\Exception3.pdb
+C:\Users\tobia\source\repos\Exception3\obj\Debug\netcoreapp3.1\Exception3.genruntimeconfig.cache
