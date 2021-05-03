@@ -1,4 +1,5 @@
 ﻿using Data;
+using EF.Logic;
 using Logic;
 using Logic.Factory;
 using System;
@@ -9,10 +10,13 @@ namespace ABM
     {
         static void Main(string[] args)
         {
-            InsertProd();
-            UpdateProd();
-            DeleteProd();
-        }
+            /* Esta es la instancia de la clase Query, es donde estan todos los ejercicios 
+             * Ejemplo queries.Query1();
+             */
+            
+            var queries = new Query();
+            
+         }
 
         static void InsertProd()
         {
