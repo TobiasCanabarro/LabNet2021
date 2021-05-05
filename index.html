@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Complete Form</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link rel="shortcut icon" href="img/favicon-32x32.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="icon" href="img/documents_papers_sheets_icon_187064.png" type="img/png">
+        <script src = "js/controller.js"></script>
+        <script src = "js/validator.js"></script>
+    </head>
+
+    <body>
+        <div class="main">
+            <p class="ph" align="center">Personal Information</p>
+            <form class="form">
+                <input class="format" id="name" type="text" title="Este campo no puede contener numeros o simbolos" placeholder="Name">
+                <input class="format" id="lastname" type="text" title="Este campo no puede contener numeros o simbolos" placeholder="Lastname">           
+                <input class="format"  id="age" type="text"  placeholder="Age" title="Este campo no puede contener letras o simbolos">
+                
+                <p class="ph" align="center">Gender</p>
+                <div class="format">
+                        <label class="container">Male
+                            <input id="checkbox1"  type="radio" name="radio"><!-- checked="checked" -->
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Female
+                            <input id="checkbox2" type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Other
+                            <input id="checkbox3" type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                </div>
+                
+                <p class="ph" align="center">Aditional Information</p>
+                <textarea id="textarea" class="format" id="infAd" maxlength="80" style="margin: 0px 0px 27px 46px; height: 125px; width: 303px;" placeholder="Information about the company"></textarea>
+                <a id ="submit" class="submit" onclick="submit();">Submit</a>
+                <button id="clear" class="z" onclick="clear();">Clear</button>
+            </form>
+        </div>           
+    </body>
+</html>
