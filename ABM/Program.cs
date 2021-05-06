@@ -1,4 +1,4 @@
-﻿using Data;
+﻿using Entities;
 using Logic;
 using Logic.Factory;
 using System;
@@ -9,9 +9,7 @@ namespace ABM
     {
         static void Main(string[] args)
         {
-            InsertProd();
-            UpdateProd();
-            DeleteProd();
+           InsertProd();
         }
 
         static void InsertProd()

@@ -1,11 +1,11 @@
-﻿using Data;
+﻿using Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Logic
 {
-    class EmployeesLogic : AMBLogic<Employees>
+    public class EmployeesLogic : AMBLogic<Employees>
     {
 
         public EmployeesLogic() : base() { 
@@ -57,7 +57,7 @@ namespace Logic
         }
 
 
-        public override List<Employees> GetAall()
+        public override List<Employees> GetAll()
         {
             List<Employees> employees = null;
             try

@@ -1,4 +1,4 @@
-﻿using Data;
+﻿using Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,7 +62,7 @@ namespace Logic
         }
 
 
-        public override List<Products> GetAall()
+        public override List<Products> GetAll()
         {
             List<Products> customers = null;
             try

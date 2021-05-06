@@ -1,4 +1,4 @@
-﻿using Data;
+﻿using Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +22,7 @@ namespace Logic
 
         public abstract T Get(int id);
 
-        public abstract List<T> GetAall();
+        public abstract List<T> GetAll();
 
         public abstract void Delete(int id);
 
