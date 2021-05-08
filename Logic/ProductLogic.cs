@@ -23,9 +23,9 @@ namespace Logic
                 GetNorthwindContext().Products.Add(products);
                 GetNorthwindContext().SaveChanges();
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                Console.WriteLine(ex.StackTrace);
+               
             }
         }
 
@@ -40,9 +40,9 @@ namespace Logic
                 GetNorthwindContext().Products.Remove(product);
                 GetNorthwindContext().SaveChanges();
             }
-            catch (InvalidOperationException ex)
+            catch (InvalidOperationException )
             {
-                Console.WriteLine(ex.StackTrace);
+         
             }
         }
 
@@ -54,9 +54,9 @@ namespace Logic
             {
                 products = GetNorthwindContext().Products.Find(id);
             }
-            catch (InvalidOperationException ex)
+            catch (InvalidOperationException)
             {
-                Console.WriteLine(ex.StackTrace);
+                
             }
             return products;
         }
@@ -69,9 +69,9 @@ namespace Logic
             {
                 customers = GetNorthwindContext().Products.ToList();
             }
-            catch (ArgumentNullException ex)
+            catch (ArgumentNullException)
             {
-                Console.WriteLine(ex.StackTrace);
+                
             }
             return customers;
         }
@@ -86,9 +86,8 @@ namespace Logic
                 UpdateEntity(updatedProduct, product);
                 GetNorthwindContext().SaveChanges();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                Console.WriteLine(ex.StackTrace);
             }
         }
         

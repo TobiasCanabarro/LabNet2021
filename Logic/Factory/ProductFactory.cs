@@ -16,5 +16,31 @@ namespace Logic.Factory
             return new Products(productID, productName, supplierID, categoryID, quantityPerUnit,
              unitPrice, unitsInStock, unitsOnOrder, reorderLevel, discontinued);
         }
+        /*
+         ProductID = productView.Id,
+                   ProductName = productView.ProductName,
+                   UnitPrice = productView.UnitPrice,
+                   UnitsInStock = productView.UnitsInStock
+         */
+        public static Products Create(int productID, string productName, decimal? unitPrice, short? unitsInStock)
+        {
+            return new Products
+            {
+                ProductID = productID,
+                ProductName = productName,
+                UnitPrice = unitPrice,
+                UnitsInStock = unitsInStock
+            };
+        }
+
+        public static Products Create(string productName, decimal? unitPrice, short? unitsInStock)
+        {
+            return new Products
+            {
+                ProductName = productName,
+                UnitPrice = unitPrice,
+                UnitsInStock = unitsInStock
+            };
+        }
     }
 }

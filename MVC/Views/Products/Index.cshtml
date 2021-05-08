@@ -1,0 +1,38 @@
+﻿@model List<MVC.Models.ProductsView>
+@{
+    ViewBag.Title = "Products Page";
+}
+
+<h2>Products</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Product name</th>
+            <th scope="col">Unit price</th>
+            <th scope="col">Unit in stock</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+        <tr>
+            <th scope="row">@product.Id</th>
+            <td scope="col">@product.ProductName</td>
+            <td scope="col">@product.UnitPrice</td>
+            <td>@product.UnitsInStock</td>
+            <td>@Html.ActionLink("Delete", "Delete", new { id = product.Id }, new { onclick = "return confirm ('Are you sure to delete it ?')"})</td>
+            <td>@Html.ActionLink("Update", "Insert", "Products", product)</td>
+        </tr>
+        }
+    </tbody>
+</table>
+<div>
+    @Html.ActionLink("Insert new product", "Insert", "Products")
+</div>
+<div>
+    @Html.ActionLink("Home", "Index", "Home")
+</div>
+
