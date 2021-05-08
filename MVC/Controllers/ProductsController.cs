@@ -17,7 +17,6 @@ namespace MVC.Controllers
         private readonly string _index = "Index";
         private readonly string _error = "Error";
 
-        // GET: Products
         public ActionResult Index()
         {
             List<Products> products = _productsLogic.GetAll();
