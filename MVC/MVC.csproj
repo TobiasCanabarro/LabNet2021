@@ -127,7 +127,6 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\IAction.cs" />
-    <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
@@ -137,6 +136,8 @@
     <Compile Include="Models\ErrorView.cs" />
     <Compile Include="Models\ProductsView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validator\ProductsValidator.cs" />
+    <Compile Include="Validator\Validator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -174,7 +175,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Employees\Index.cshtml" />
     <Content Include="Views\Products\Index.cshtml" />
     <Content Include="Views\Products\Insert.cshtml" />
     <Content Include="Views\Error\Index.cshtml" />

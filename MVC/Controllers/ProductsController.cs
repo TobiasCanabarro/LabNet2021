@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Logic.Validator;
+using Entities.Exception;
 
 namespace MVC.Controllers
 {
@@ -40,14 +42,18 @@ namespace MVC.Controllers
         [HttpPost]
         public ActionResult Insert(ProductsView productView)
         {
+            ProductsValidator validator = new ProductsValidator();
+
             try
-            {   if (productView.Id != 0)
+            {
+                if (!validator.IsValid(productView.Id))
                 {
                     return Update(productView);
                 }            
                 Products product = ProductFactory.Create(productView.ProductName, productView.UnitPrice, productView.UnitsInStock);
                 _productsLogic.Add(product);
-               return RedirectToAction(_index);
+                
+                return RedirectToAction(_index);
             }
             catch (Exception)
             {
