@@ -1,0 +1,12 @@
+﻿@model WebApi.Models.DogView
+@{
+    ViewBag.Title = "Dog";
+}
+
+<h2>Dog</h2>
+<div class="text-center">
+    <img src="@Model.Message" alt="Alternate Text" />
+</div>
+<div class="btn-block">
+    @Html.ActionLink("Random", "Index", "Dog", new { @class = "btn btn-primary"})
+</div>
