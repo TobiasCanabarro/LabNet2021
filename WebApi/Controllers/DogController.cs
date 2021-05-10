@@ -9,6 +9,7 @@ namespace WebApi.Controllers
 {
     public class DogController : Controller
     {
+        /*URL : del servicio rest https://dog.ceo/dog-api/documentation/ */
         private readonly string _url = "https://dog.ceo/api/breeds/image/random";
         // GET: Dog
         public ActionResult Index()
