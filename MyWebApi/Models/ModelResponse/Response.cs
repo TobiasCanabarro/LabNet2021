@@ -1,22 +1,18 @@
 ﻿using Entities;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Web;
+using System.Net;
 
 namespace MyWebApi.Models.ModelResponse
 {
     public class Response
     {
+        public HttpStatusCode StatusCode { get; set; }
         public string TypeEx { get; set; }
         public string StackTrace { get; set; }
         public Products entity { get; set; }
 
         public Response()
         {
-
+            this.StatusCode = HttpStatusCode.OK;
         }
 
         public Response(string TypeEx, string StackTrace)
