@@ -7,9 +7,11 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace MyWebApi.Controllers
-{
+{   
+   [EnableCors(origins: "http://localhost:4200", headers:"*", methods:"*")]
     public class ProductsController : ApiController
     {
         private readonly ProductLogic logic = new ProductLogic();
@@ -50,16 +52,16 @@ namespace MyWebApi.Controllers
             }
             return Ok(response);
         }
-
-        public IHttpActionResult PostProduct([FromBody] string body)
+        //[FromBody] string body
+        public IHttpActionResult PostProduct(Products products)
         {
             var response = new Response();
             try
             {
-                var productsComplete = JsonConvert.DeserializeObject<Products>(body);
-                Products products = ProductsMapper.Map(productsComplete);
+                //var productsComplete = JsonConvert.DeserializeObject<Products>(body);
+                //Products products = ProductsMapper.Map(productsComplete);
                 logic.Add(products);
-                response.entity = products;
+                //response.entity = products;
             }
             catch (Exception ex)
             {
@@ -68,12 +70,12 @@ namespace MyWebApi.Controllers
             return Ok(response);
         }
 
-        public IHttpActionResult PutUpdate([FromBody] string body)
+        public IHttpActionResult PutUpdate(Products products)
         {
             var response = new Response();
             try
             {
-                Products products = JsonConvert.DeserializeObject<Products>(body);
+                //Products products = JsonConvert.DeserializeObject<Products>(body);
                 logic.Update(products);
             }
             catch (Exception ex)
