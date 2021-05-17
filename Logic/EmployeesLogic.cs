@@ -18,7 +18,7 @@ namespace Logic
                 GetNorthwindContext().Employees.Add(employee);
                 GetNorthwindContext().SaveChanges();
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 Console.WriteLine(ex.StackTrace);
             }
@@ -81,7 +81,7 @@ namespace Logic
                 UpdateEntity(updatedEmployee, employee);
                 GetNorthwindContext().SaveChanges();
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 Console.WriteLine(ex.StackTrace);
             }
