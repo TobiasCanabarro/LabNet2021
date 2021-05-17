@@ -1,9 +1,8 @@
 ﻿using Entities;
+using Logic.Validator;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Logic
 {
@@ -11,6 +10,8 @@ namespace Logic
 
     public class ProductLogic : AMBLogic<Products>
     {
+        ProductsValidator validator = new ProductsValidator();
+
         public ProductLogic() : base()
         {
 
@@ -18,17 +19,21 @@ namespace Logic
 
         public override void Add(Products products)
         {
+            
             try
             {
-                GetNorthwindContext().Products.Add(products);
-                GetNorthwindContext().SaveChanges();
+                if (validator.isValidWithoutID(products))
+                {
+                    GetNorthwindContext().Products.Add(products);
+                    GetNorthwindContext().SaveChanges();
+                }
+                
             }
-            catch (Exception )
+            catch (System.Exception)
             {
                
             }
         }
-
 
         public override void Delete(int id)
         {
@@ -36,9 +41,12 @@ namespace Logic
 
             try
             {
-                product = GetNorthwindContext().Products.Find(id);
-                GetNorthwindContext().Products.Remove(product);
-                GetNorthwindContext().SaveChanges();
+                if (validator.isProductIDValid(id))
+                {
+                    product = GetNorthwindContext().Products.Find(id);
+                    GetNorthwindContext().Products.Remove(product);
+                    GetNorthwindContext().SaveChanges();
+                }               
             }
             catch (InvalidOperationException )
             {
@@ -52,11 +60,18 @@ namespace Logic
 
             try
             {
-                products = GetNorthwindContext().Products.Find(id);
+                if (validator.isProductIDValid(id))
+                {
+                    products = GetNorthwindContext().Products.Find(id);
+                }               
             }
             catch (InvalidOperationException)
             {
                 
+            }
+            catch (System.Exception)
+            {
+
             }
             return products;
         }
@@ -64,16 +79,16 @@ namespace Logic
 
         public override List<Products> GetAll()
         {
-            List<Products> customers = null;
+            List<Products> products = null;
             try
             {
-                customers = GetNorthwindContext().Products.ToList();
+                products = GetNorthwindContext().Products.Take(5).ToList();
             }
             catch (ArgumentNullException)
             {
                 
             }
-            return customers;
+            return products;
         }
 
         public override void Update(Products product)
@@ -82,11 +97,14 @@ namespace Logic
 
             try
             {
-                updatedProduct = GetNorthwindContext().Products.Find(product.ProductID);
-                UpdateEntity(updatedProduct, product);
-                GetNorthwindContext().SaveChanges();
+                if (validator.isValid(product))
+                {
+                    updatedProduct = GetNorthwindContext().Products.Find(product.ProductID);
+                    UpdateEntity(updatedProduct, product);
+                    GetNorthwindContext().SaveChanges();
+                }              
             }
-            catch (Exception)
+            catch (System.Exception)
             {
             }
         }
