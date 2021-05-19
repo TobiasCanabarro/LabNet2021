@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delete</title>
+</head>
+<body>
+
+
+  <div class="container">
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label class="col-form-label">Product ID:</label>
+            <input formControlName="productID" class="form-control" placeholder="ID of the product you want to delete" title="only numbers">
+        </div>
+        <hr>       
+        <button type="submit" class="btn btn-primary" [disabled]="!form.valid">Delete</button>
+      </form>
+    </div>
+
+</body>
+</html>
